@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages{
         stage('Build') {
             steps {
                 build 'PES1UG22AM089-1'
